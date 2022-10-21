@@ -11,6 +11,9 @@
     "client": "cd client && npm start",
     "heroku-prebuild": "npm install --dev"
   },
+  "engines": {
+    "node": "17.x"
+  },
   "dependencies": {
     "express": "^4.17.1"
   },
